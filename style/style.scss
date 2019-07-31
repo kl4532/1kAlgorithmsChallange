@@ -1,19 +1,29 @@
-table{
+body {
     text-align: center;
-    a{
-        text-decoration: none;
-        color: #fff;
-        &:hover {
-            color:yellow;
-            text-decoration: none;
-            font-weight: bold;
+    margin: auto 0;
+    padding: auto 0;
+    position: absolute;
+    right: 2%;
+    left: 2%;
+    font-size: 1.5em;
+}
+.container {
+    text-align: center;
+    div.bdy{
+        .row {
+            padding: 10px 0;
+            .code-drop {
+                &:hover {
+                    color:yellow;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        } 
+        pre {
+            text-align: justify;
         }
     }
-    div.card-body {
-        padding: 0;
-    }
-    iframe{
-        text-align: center;
-    }
 }
+
 

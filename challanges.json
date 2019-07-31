@@ -10,7 +10,13 @@
             "id": 2, 
             "title": "Mexican Wave",
             "kyu": 6,
-            "link": "Day1-MexicanWave-6kyu/index.js"
+            "link": "challenges/Day1-MexicanWave-6kyu/index.js"
+        },
+        {   
+            "id": 3, 
+            "title": "Mexican Wave",
+            "kyu": 6,
+            "link": "challenges/Day1-MexicanWave-6kyu/index.js"
         }
 
     ]
