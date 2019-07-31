@@ -1,0 +1,15 @@
+table {
+  text-align: center;
+}
+
+table a {
+  text-decoration: none;
+  color: #fff;
+}
+
+table a:hover {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

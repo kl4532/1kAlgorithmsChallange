@@ -5,12 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
 </head>
 <body>
-    <h2>Day 0</h2>
-    <h3>FindTheParityOutliner</h3>
-    <h4>6kyu</h4>
-    <script src="Day0-FindTheParityOutliner-6kyu/index.js"></script>
+    <!-- <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Title</th>
+            <th scope="col">Kyu</th>
+            <th scope="col">Solution link</th>
+          </tr>
+        </thead>
+        <tbody id="bdy">
+            <tr data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <th scope="col">test</th>
+                <td scope="col">test</td>
+                <td scope="col">test</td>
+                <td scope="col">test link</td>
+            </tr>
+            <tr class="collapse" id="collapseExample"> 
+                <td class="card card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </td>
+            </tr>
+        </tbody>
+      </table> -->
+      <div class="row">
+          <div class="col">Day</div>
+          <div class="col">Title</div>
+          <div class="col">Kyu</div>
+          <div class="col">Solution</div>
+      </div>
+     <div class="row bg-dark text-light" >
+            <div class="col">ts</div>
+            <div class="col">ts</div>
+            <div class="col">ts</div>
+            <div data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="col">code</div>
+      </div>
+      <div class="row collapse" id="collapseExample">
+            <div class="col card card-body">
+                <pre>
+                    <code class="javascript" id="test"></code>
+                </pre>
+                <script>
+                    let client = new XMLHttpRequest();
+                    client.open('GET', 'challenges/Day0-FindTheParityOutliner-6kyu/index.js');
+                    client.onreadystatechange = function() {
+                      console.log(client.responseText);
+                      document.getElementById("test").innerHTML = `${client.responseText}`;
+                    }
+                    client.send();
+                    // document.getElementById("test").innerText = "for(let i = 0; i<10; i++){i++;}";
+                </script>
+            </div>
+      </div>
 
+      <!-- example -->
+      <pre>
+        <code class="javascript">
+          for(let i = 0; i<10; i++){
+            i++;
+          }
+        </code>
+      </pre>
+      
+      
+
+
+
+
+      <script src="index.js"></script>
+      
 </body>
 </html>

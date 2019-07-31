@@ -1,0 +1,17 @@
+{
+    "challenges": [
+        {   
+            "id": 1, 
+            "title": "Find The Parity Outliner",
+            "kyu": 6,
+            "link": "challenges/Day0-FindTheParityOutliner-6kyu/index.js"
+        },
+        {   
+            "id": 2, 
+            "title": "Mexican Wave",
+            "kyu": 6,
+            "link": "Day1-MexicanWave-6kyu/index.js"
+        }
+
+    ]
+}
