@@ -1,10 +1,22 @@
-function findOutlier(integers){
-    //your code here
-    let temp = 0;
-    for(let i=0; i<3; i++){
-      integers[i]%2 === 0 ? temp++ : temp;
+function wave(str) {
+    let result=[];
+    for(let i=0; i<str.length; i++){
+        if(str.charAt(i) !== " "){
+            let arr = str.split("");
+            let x= str.charAt(i).toUpperCase();
+            arr.splice(i,1,x);
+            result.push(arr.join(""));
+        }
     }
-    return temp>1 ? integers.filter(i=>i%2!==0)[0] : integers.filter(i=>i%2==0)[0];
+    console.log(result);
+    return result;
 }
-//console.log(findOutlier([2, 2, 2, 0, 1, 4]));
-//console.log(findOutlier([1, 1, 7, 1, 2, 1]));
+wave("two words"); 
+//  -> [ 'Two words',
+    //   'tWo words',
+    //   'twO words',
+    //   'two Words',
+    //   'two wOrds',
+    //   'two woRds',
+    //   'two worDs',
+    //   'two wordS' ]
