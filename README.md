@@ -1,4 +1,4 @@
-# 1k Days Algorithm Challange
+# 1k Algorithm Challange
 ## About
 Repo is documentation of a challenge. Algorithms are taken from [CodeWars](https://www.codewars.com).
 ## Goal
