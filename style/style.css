@@ -8,21 +8,36 @@ body {
   font-size: 1.5em;
 }
 
-.container {
-  text-align: center;
+body a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.container div.bdy .row {
-  padding: 10px 0;
-}
-
-.container div.bdy .row .code-drop:hover {
+body a:hover {
   color: yellow;
   text-decoration: none;
   font-weight: bold;
 }
 
-.container div.bdy pre {
+div.container {
+  text-align: center;
+}
+
+div.container div.bdy div.row {
+  padding: 10px 0;
+}
+
+div.container div.bdy div.row .card-body a {
+  color: red;
+}
+
+div.container div.bdy div.row .code-drop:hover {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.container div.bdy pre {
   text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */

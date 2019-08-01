@@ -6,12 +6,27 @@ body {
     right: 2%;
     left: 2%;
     font-size: 1.5em;
+    a{
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color:yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
 }
-.container {
+div.container {
     text-align: center;
     div.bdy{
-        .row {
+        div.row {
             padding: 10px 0;
+            .card-body {
+                a{
+                    color: red;
+                    
+                }
+            }
             .code-drop {
                 &:hover {
                     color:yellow;
