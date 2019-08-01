@@ -1,22 +1,28 @@
 {
     "challenges": [
         {   
-            "id": 1, 
+            "id": 0, 
             "title": "Find The Parity Outliner",
             "kyu": 6,
-            "link": "challenges/Day0-FindTheParityOutliner-6kyu/index.js"
+            "lang": "java script",
+            "link": "challenges/Day0-FindTheParityOutliner-6kyu/index.js",
+            "readme": "challenges/Day0-FindTheParityOutliner-6kyu/README.md"
+        },
+        {   
+            "id": 1, 
+            "title": "Mexican Wave",
+            "kyu": 6,
+            "lang": "java script",
+            "link": "challenges/Day1-MexicanWave-6kyu/index.js",
+            "readme": "challenges/Day1-MexicanWave-6kyu/README.md"
         },
         {   
             "id": 2, 
-            "title": "Mexican Wave",
-            "kyu": 6,
-            "link": "challenges/Day1-MexicanWave-6kyu/index.js"
-        },
-        {   
-            "id": 3, 
-            "title": "Mexican Wave",
-            "kyu": 6,
-            "link": "challenges/Day1-MexicanWave-6kyu/index.js"
+            "title": "Highest and Lowest",
+            "lang": "type script",
+            "kyu": 7,
+            "link": "challenges/Day2-HighestandLowest-7kyu/index.ts",
+            "readme": "challenges/Day2-HighestandLowest-7kyu/README.md"
         }
 
     ]
