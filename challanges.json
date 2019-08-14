@@ -44,9 +44,17 @@
             "id": 5, 
             "title": "Factorial decomposition",
             "lang": "java script",
-            "kyu": 4,
+            "kyu": 5,
             "link": "challenges/C5-Factorialdecomposition/index.js",
             "readme": "challenges/C5-Factorialdecomposition/README.md"
+        },
+        {   
+            "id": 6, 
+            "title": "Iterative Rotation Cipher",
+            "lang": "java script",
+            "kyu": 5,
+            "link": "challenges/C6/index.js",
+            "readme": "challenges/C6/README.md"
         }
     ]
 }
