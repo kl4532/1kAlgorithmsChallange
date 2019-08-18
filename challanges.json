@@ -5,48 +5,48 @@
             "title": "Find The Parity Outliner",
             "kyu": 6,
             "lang": "java script",
-            "link": "challenges/C0-FindTheParityOutliner-6kyu/index.js",
-            "readme": "challenges/C0-FindTheParityOutliner-6kyu/README.md"
+            "link": "challenges/C0/index.js",
+            "readme": "challenges/C0/README.md"
         },
         {   
             "id": 1, 
             "title": "Mexican Wave",
             "kyu": 6,
             "lang": "java script",
-            "link": "challenges/C1-MexicanWave-6kyu/index.js",
-            "readme": "challenges/C1-MexicanWave-6kyu/README.md"
+            "link": "challenges/C1/index.js",
+            "readme": "challenges/C1/README.md"
         },
         {   
             "id": 2, 
             "title": "Highest and Lowest",
             "lang": "type script",
             "kyu": 7,
-            "link": "challenges/C2-HighestandLowest-7kyu/index.ts",
-            "readme": "challenges/C2-HighestandLowest-7kyu/README.md"
+            "link": "challenges/C2/index.ts",
+            "readme": "challenges/C2/README.md"
         },
         {   
             "id": 3, 
             "title": "IQ Test",
             "lang": "type script",
             "kyu": 6,
-            "link": "challenges/C3-IQTest-6kyu/index.ts",
-            "readme": "challenges/C3-IQTest-6kyu/README.md"
+            "link": "challenges/C3/index.ts",
+            "readme": "challenges/C3/README.md"
         },
         {   
             "id": 4, 
             "title": "Find the unique number",
             "lang": "type script",
             "kyu": 6,
-            "link": "challenges/C4-Findtheuniquenumber/index.ts",
-            "readme": "challenges/C4-Findtheuniquenumber/README.md"
+            "link": "challenges/C4/index.ts",
+            "readme": "challenges/C4/README.md"
         },
         {   
             "id": 5, 
             "title": "Factorial decomposition",
             "lang": "java script",
             "kyu": 5,
-            "link": "challenges/C5-Factorialdecomposition/index.js",
-            "readme": "challenges/C5-Factorialdecomposition/README.md"
+            "link": "challenges/C5/index.js",
+            "readme": "challenges/C5/README.md"
         },
         {   
             "id": 6, 
@@ -55,6 +55,14 @@
             "kyu": 5,
             "link": "challenges/C6/index.js",
             "readme": "challenges/C6/README.md"
+        },
+        {   
+            "id": 7, 
+            "title": "Regex test password",
+            "lang": "java script",
+            "kyu": 5,
+            "link": "challenges/C7/index.js",
+            "readme": "challenges/C7/README.md"
         }
     ]
 }
