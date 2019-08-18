@@ -63,6 +63,14 @@
             "kyu": 5,
             "link": "challenges/C7/index.js",
             "readme": "challenges/C7/README.md"
+        },
+        {   
+            "id": 8, 
+            "title": "Mumbling",
+            "lang": "java script",
+            "kyu": 7,
+            "link": "challenges/C8/index.js",
+            "readme": "challenges/C8/README.md"
         }
     ]
 }
