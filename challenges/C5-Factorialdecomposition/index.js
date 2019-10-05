@@ -1,5 +1,6 @@
 function decomp(n) {
     let result = "";
+    temp = n;
     n = factorial(n);  //  -> !n
     primeFactors(n).forEach(f=>{ // primeFactors(n) -> [of prime factors for n]
         let pow = powerFactor(n,f);
@@ -10,7 +11,7 @@ function decomp(n) {
     function primeFactors(num){
         let factors = [];
         // cheating: checking only for first 1kk numbers if they are prime factors
-        for(let i=2; i<10000; i++){
+        for(let i=2; i<temp; i++){
             i = BigInt(i);
             num%i == 0 && isPrime(i) ? factors.push(i) : 0;
         }
@@ -47,11 +48,10 @@ function decomp(n) {
         return count;
     }
 
-// console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_SAFE_INTEGER);
     console.log(result);
     return result;
   }
 
   // n to factorial -> max 10000
-  n = 500
-  decomp(n);
+  decomp(2);
