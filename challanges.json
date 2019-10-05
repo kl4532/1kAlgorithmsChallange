@@ -71,6 +71,14 @@
             "kyu": 7,
             "link": "challenges/C8/index.js",
             "readme": "challenges/C8/README.md"
+        },
+        {   
+            "id": 9, 
+            "title": "Rosetta Code: 100 doors",
+            "lang": "java script",
+            "kyu": 0,
+            "link": "challenges/C9/index.js",
+            "readme": "challenges/C9/README.md"
         }
     ]
 }
