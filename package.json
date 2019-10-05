@@ -1,0 +1,23 @@
+{
+  "name": "1kalgorithmschallange",
+  "version": "1.0.0",
+  "description": "Repo is documentation of a challenge. Algorithms are taken from [CodeWars](https://www.codewars.com). ## Goal Do 1k algorithms. Improve algoritming skills, reach at least 3kyu on codewars. ## View To see all algorithms in one webpabe download repo and run index.html.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kl4532/1kAlgorithmsChallange.git"
+  },
+  "author": "luko <Korneliusz.Lukasiak@skidata.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kl4532/1kAlgorithmsChallange/issues"
+  },
+  "homepage": "https://github.com/kl4532/1kAlgorithmsChallange#readme",
+  "dependencies": {
+    "showdown": "^1.9.0",
+    "sweetalert2": "^8.17.1"
+  }
+}
